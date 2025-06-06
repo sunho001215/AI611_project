@@ -21,3 +21,4 @@ dmcgym @ git+https://github.com/conglu1997/dmcgym.git@812905790dd87a448c9544a0be
 -e git+https://github.com/watchernyu/REDQ.git@3a2763889223677d74c734864244c41494e4832c#egg=redq
 metaworld
 matplotlib
+ipdb
