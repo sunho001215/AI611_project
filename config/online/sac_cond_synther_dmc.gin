@@ -1,6 +1,10 @@
 # SAC (SynthER) for DMC environments.
 
-include 'config/online/sac.gin'
+redq_sac.start_steps = 5000
+redq_sac.utd_ratio = 1
+redq_sac.num_Q = 2
+redq_sac.n_evals_per_epoch = 10
+redq_sac.evaluate_bias = False
 
 # Higher UTD with synthetic data.
 redq_sac.utd_ratio = 20
