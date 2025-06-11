@@ -6,7 +6,6 @@ pillow
 pytorch-fid
 torch
 torchdiffeq
-gym[mujoco_py,classic_control]
 tqdm
 mujoco
 mujoco-py
