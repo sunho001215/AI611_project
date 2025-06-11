@@ -7,7 +7,6 @@ pytorch-fid
 torch
 torchdiffeq
 gym[mujoco_py,classic_control]==0.23.0
-git+https://github.com/Farama-Foundation/d4rl@master#egg=d4rl
 tqdm
 mujoco
 mujoco-py==2.1.2.14
